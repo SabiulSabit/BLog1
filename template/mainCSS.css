@@ -1,0 +1,74 @@
+.bg
+{
+	background-image: url("loginBG.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow-y: hidden; 
+	overflow-x: hidden; 
+	width: 100%;
+	height: 800px;
+}
+
+#loginform
+{
+	background-color: black;
+	opacity: 0.4;
+	margin:120px auto;
+	attachment: fixed;
+	height: 400px;
+	width: 300px;
+}
+
+#loginform:hover
+{
+	opacity: .5;
+}
+::placeholder
+{
+	color: black;
+}
+#username
+{
+  color: black;
+}
+#pass
+{
+	margin-top: 20%;
+}
+#loginbtn
+{  
+    margin-top: 8% ;
+	margin-left: 46%;
+	width: 80px;
+	height: 30px;
+	colo: white;
+	background-color:#1289A7;
+	opacity: .8;
+	border: none;
+	font-size: 18px;
+	font-family: 'Montaga', serif;
+	font-color: black;
+}
+#loginbtn:hover
+{
+	opacity: 1;
+}
+	
+input 
+{   
+	width: 180px;
+	height: 28px;
+	margin-top: 35%;
+	margin-left: 20%;
+	border: none;
+	font-style: bold;
+	font-size: 15px;
+	font-code: #55E6C1;
+	font-family: 'Montaga', serif;
+	background-color: #BDC581;	
+}
+
+input:focus {
+  border: 1px solid #555;
+   background-color: white;
+}
